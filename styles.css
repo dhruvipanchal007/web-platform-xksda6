@@ -19,3 +19,27 @@ a {
   color: var(--color-primary);
   text-decoration: none;
 }
+.hero{
+  margin-top: 200px;
+}
+.hero h2{
+  margin:0 0 10px 0;
+  font-weight: 700;
+  font-family: var(--font-secondary);
+  color: #fff;
+}
+@media(max-width:768px){
+  h2{
+    font-size: 32px;
+  }
+}
+.hero h2 span{
+  position: relative;
+  z-index: 1;
+  padding: 0 5px;
+  display: inline-block;
+}
+.hero  h2 span::before{
+  content: "";
+  
+}
