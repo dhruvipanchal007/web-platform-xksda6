@@ -42,15 +42,15 @@ a {
     align-items: center;
     list-style: none;
   }
-  .navbar li{
+  .navbar li {
     position: relative;
   }
-  .navbar a{
+  .navbar a {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 10px 0 10px 30px;
-    font-family: "inter",sans-serif;
+    font-family: 'inter', sans-serif;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-size: 13px;
@@ -59,19 +59,19 @@ a {
     transition: all 0.3s;
     color: rgba(255, 255, 255, 0.5);
   }
-  .navbar .active{
+  .navbar .active {
     color: #fff;
   }
-  .navbar a i{
+  .navbar a i {
     font-size: 12px;
     line-height: 0;
     margin-left: 5px;
   }
-  .navbar .dropdown ul{
-    display:block;
+  .navbar .dropdown ul {
+    display: block;
     position: absolute;
     left: 14px;
-    top: calc(100% + 30px) ;
+    top: calc(100% + 30px);
     margin: 0;
     padding: 10px 0;
     z-index: 99;
@@ -81,7 +81,7 @@ a {
     border-radius: 4px;
     transition: 0.3s;
   }
-  .navbar .dropdown ul a{
+  .navbar .dropdown ul a {
     padding: 10px 20px;
     font-size: 20px;
     text-transform: none;
@@ -89,8 +89,8 @@ a {
   }
 }
 
-@media(max-width:1279px){
-  .mobile-nav-show{
+@media (max-width: 1279px) {
+  .mobile-nav-show {
     color: #fff;
     font-size: 28px;
     cursor: pointer;
@@ -100,7 +100,7 @@ a {
     margin: 0 10px 0 10px;
   }
 
-  .mobile-nav-hide{
+  .mobile-nav-hide {
     color: #fff;
     font-size: 32px;
     cursor: pointer;
@@ -111,8 +111,27 @@ a {
     z-index: 9999;
   }
 }
-.d-flex{
-  display: flex!important;
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.navbar-toggler-icon {
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: middle;
+  content: '';
+  background: 50%/100% 100% no-repeat;
+}
+.navabar-toggler {
+  padding: 0.25rem 0.75rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  background-color: #000;
+  border: 1px solid white;
+  border-radius: 0.25rem;
+}
+.d-flex {
+  display: flex !important;
 }
 .hero {
   margin-top: 200px;
