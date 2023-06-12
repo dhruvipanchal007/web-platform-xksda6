@@ -23,6 +23,21 @@ body {
   color: #fff;
   font-family: "cardo", sans-serif;
 }
+.header .logo i{
+  font-size: 32px;
+  margin-right: 8px;
+  line-height: 0;
+  color: #27a776;
+}
+.header .header-social-links a{
+color: rgba(255, 255, 255, 0.5);
+line-height: 0px;
+padding-left: 15px;
+font-size: 16px;
+display: inline-block;
+transition: 0.3s;
+}
+
 .dropdown-menu {
   background-color: #161718;
 }
@@ -174,4 +189,54 @@ a:hover {
 }
 .page-header p{
   color: rgba(255, 255, 255, 0.8);
+}
+.about .content ul{
+  list-style: none;
+  padding: 0;
+}
+.about .content ul li{
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+.about .content  h2{
+  color: #27a776;
+  font-size: 24px;
+  font-weight: 700;
+}
+.about .content ul li i{
+  color: #27a776;
+  font-size: 16px;
+  margin-right: 5px;
+  line-height: 0;
+}
+ 
+.fst-italic{
+  font-style: italic!important;
+}
+.section-header h2{
+  font-size: 14px;
+  font-weight: 500;
+  padding: 0;
+  line-height: 1px;
+  margin: 0 0 5px 0;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-family: "Inter",sans-serif;
+  color: rgba(255, 255, 255, 0.6);
+}
+.section-header h2::after{
+  content: "";
+  width: 120px;
+  height: 1px;
+  display: inline-block;
+  background-color: #5bd9a9;
+  margin: 4px 10px;
+}
+.section-header p{
+  margin: 0;
+  font-size: 36px;
+  font-weight:700;
+  font-family: "cardo",sans-serif;
+  color: #fff;
 }
