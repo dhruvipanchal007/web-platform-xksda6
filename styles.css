@@ -11,7 +11,7 @@ body {
   padding: 30px 0;
   z-index: 997;
   background-color: #000;
-  font-family: "cardo",sans-serif;
+  font-family: 'cardo', sans-serif;
 }
 .header .logo {
   transition: 0.3s;
@@ -21,21 +21,21 @@ body {
   margin: 0;
   font-weight: 400;
   color: #fff;
-  font-family: "cardo", sans-serif;
+  font-family: 'cardo', sans-serif;
 }
-.header .logo i{
+.header .logo i {
   font-size: 32px;
   margin-right: 8px;
   line-height: 0;
   color: #27a776;
 }
-.header .header-social-links a{
-color: rgba(255, 255, 255, 0.5);
-line-height: 0px;
-padding-left: 15px;
-font-size: 16px;
-display: inline-block;
-transition: 0.3s;
+.header .header-social-links a {
+  color: rgba(255, 255, 255, 0.5);
+  line-height: 0px;
+  padding-left: 15px;
+  font-size: 16px;
+  display: inline-block;
+  transition: 0.3s;
 }
 
 .dropdown-menu {
@@ -45,9 +45,8 @@ transition: 0.3s;
   color: rgba(255, 255, 255, 0.5);
   font-size: 15px;
   padding: 10px 20px;
-  font-family:"open sans";
+  font-family: 'open sans';
   text-transform: none;
-  
 }
 .dropdown-item :active {
   background-color: #000;
@@ -56,8 +55,8 @@ transition: 0.3s;
   color: #fff;
   background-color: #161718;
 }
-.navbar{
-  font-family: "inter",sans-serif!important;
+.navbar {
+  font-family: 'inter', sans-serif !important;
   color: rgba(255, 255, 255, 0.5);
 }
 
@@ -100,7 +99,7 @@ transition: 0.3s;
   font-size: 18px;
 }
 .btn-get-started {
-  font-family: "inter", sans-serif;
+  font-family: 'inter', sans-serif;
   font-weight: 400;
   font-size: 14px;
   display: inline-block;
@@ -172,49 +171,49 @@ a:hover {
 .footer .credits a {
   color: #27a776;
 }
-.nav-link{
-  padding: 10px 0 10px 30px!important;
+.nav-link {
+  padding: 10px 0 10px 30px !important;
 }
 /*about page*/
-.page-header{
+.page-header {
   padding: 120px 0 60px 0;
   min-height: 30vh;
   position: relative;
 }
-.page-header h2{
+.page-header h2 {
   font-size: 56px;
   font-weight: 500;
   color: #fff;
-  font-family: "cardo",sans-serif;
+  font-family: 'cardo', sans-serif;
 }
-.page-header p{
+.page-header p {
   color: rgba(255, 255, 255, 0.8);
 }
-.about .content ul{
+.about .content ul {
   list-style: none;
   padding: 0;
 }
-.about .content ul li{
+.about .content ul li {
   margin-bottom: 20px;
   display: flex;
   align-items: center;
 }
-.about .content  h2{
+.about .content h2 {
   color: #27a776;
   font-size: 24px;
   font-weight: 700;
 }
-.about .content ul li i{
+.about .content ul li i {
   color: #27a776;
   font-size: 16px;
   margin-right: 5px;
   line-height: 0;
 }
- 
-.fst-italic{
-  font-style: italic!important;
+
+.fst-italic {
+  font-style: italic !important;
 }
-.section-header h2{
+.section-header h2 {
   font-size: 14px;
   font-weight: 500;
   padding: 0;
@@ -222,21 +221,66 @@ a:hover {
   margin: 0 0 5px 0;
   letter-spacing: 2px;
   text-transform: uppercase;
-  font-family: "Inter",sans-serif;
+  font-family: 'Inter', sans-serif;
   color: rgba(255, 255, 255, 0.6);
 }
-.section-header h2::after{
-  content: "";
+.section-header h2::after {
+  content: '';
   width: 120px;
   height: 1px;
   display: inline-block;
   background-color: #5bd9a9;
   margin: 4px 10px;
 }
-.section-header p{
+.section-header p {
   margin: 0;
   font-size: 36px;
-  font-weight:700;
-  font-family: "cardo",sans-serif;
+  font-weight: 700;
+  font-family: 'cardo', sans-serif;
   color: #fff;
+}
+.carousel-inner {
+  width: 372px !important;
+}
+.carousel-inner .carousel-item p {
+  font-style: italic;
+  margin-bottom: 15px;
+}
+.carousel-inner .carousel-item h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0 5px 0;
+  color: #fff;
+}
+.carousel-inner .carousel-item h4 {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.5);
+  margin: 0;
+}
+.carousel-inner .carousel-item .carousel-img {
+  width: 90px;
+  border-radius: 50%;
+  border: 5px solid #474a4d;
+  margin: 0 auto;
+  align-items: center;
+}
+.bg-green {
+  background-color: #161718;
+}
+.align-items-center {
+  align-items: center !important;
+}
+.carousel-inner .carousel-item {
+  box-sizing: content-box;
+  padding: 0 1px;
+  margin:0
+  min-height: 320px;
+  text-align: center;
+}
+.carousel-item .stars i {
+  color: #ffc107;
+  margin: 0 1px;
+}
+.carousel-item .stars {
+  margin-bottom: 15px;
 }
