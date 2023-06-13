@@ -213,6 +213,9 @@ a:hover {
 .fst-italic {
   font-style: italic !important;
 }
+.section-header{
+  padding-bottom: 30px;
+}
 .section-header h2 {
   font-size: 14px;
   font-weight: 500;
@@ -264,16 +267,14 @@ a:hover {
   margin: 0 auto;
   align-items: center;
 }
-.bg-green {
-  background-color: #161718;
-}
+
 .align-items-center {
   align-items: center !important;
 }
 .carousel-inner .carousel-item {
   box-sizing: content-box;
   padding: 0 1px;
-  margin:0
+  margin:0;
   min-height: 320px;
   text-align: center;
 }
@@ -283,4 +284,10 @@ a:hover {
 }
 .carousel-item .stars {
   margin-bottom: 15px;
+}
+.box{
+  background-color: #161718;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 30px;
 }
