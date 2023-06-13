@@ -213,7 +213,7 @@ a:hover {
 .fst-italic {
   font-style: italic !important;
 }
-.section-header{
+.section-header {
   padding-bottom: 30px;
 }
 .section-header h2 {
@@ -274,7 +274,7 @@ a:hover {
 .carousel-inner .carousel-item {
   box-sizing: content-box;
   padding: 0 1px;
-  margin:0;
+  margin: 0;
   min-height: 320px;
   text-align: center;
 }
@@ -285,9 +285,56 @@ a:hover {
 .carousel-item .stars {
   margin-bottom: 15px;
 }
-.box{
+.box {
   background-color: #161718;
   margin-left: auto;
   margin-right: auto;
   padding: 0 30px;
+}
+/* services page*/
+.services .service-item {
+  padding: 50px 30px;
+  transition: all ease 0.4s;
+  background-color: #161718;
+  height: 100%;
+  overflow: hidden;
+  z-index: 1;
+}
+.services .service-item i {
+  background-color: #27a776;
+  color: #fff;
+  font-size: 24px;
+  transition: 0.4s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+}
+.services .service-item::before{
+  content: "";
+  position: absolute;
+  background-color: #1d1f20;
+  top: -200px;
+  transition: all 0.3s;
+  z-index: -1;
+}
+.services .service-item h4{
+  font-weight: 600;
+  margin: 15px 0 0 0;
+  transition: 0.3s;
+font-size: 20px;
+font-family: "Inter",sans-serif;
+}
+.services .service-item p{
+  line-height: 24px;
+  font-size: 14px;
+  margin: 15px 0 0 0;
+}
+.services .service-item:hover{
+  background-color: #27a776;
+}
+.pricing{
+  margin-top: 80px;
 }
